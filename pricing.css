@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2rem 1fr  2fr 4fr 1.5fr 2rem ;
+    height: 80px;
+    border-bottom: 1.5px solid black;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.logo-header{
+    display: grid;
+    grid-column: 2/3;
+    font-weight: bold;
+    font-size: 21px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.menu-items-header{
+    display: flex;
+    grid-column:4/5;
+    justify-content: flex-end;
+}
+
+.menu-items-header ul{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    
+}
+.menu-items-header ul li a{
+   display: grid;
+   margin: 25px;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+}
+
+.menu-items-header ul li a:hover{
+    font-weight: bold;
+    transition: all 0.5s smooth;
+}
+
+.social-media-icons-header{
+    display: flex;
+    grid-column: 5/6;
+    justify-content: center;
+}
+
+.social-media-icons-header ul{
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icons-header ul li a{
+    margin: 6px;
+    font-size: 17px;
+}
+
+
+
+
+
+/*   First Component   */
+
+.first-component{
+    min-height: 700px;
+    background-color: white;
+    margin-top: 8rem;
+
+    
+}
+
+.first-component-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+    align-items: center;
+    background-color: black;
+    color: white;
+    min-height: 60px;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+    margin-bottom: 2rem;
+    box-shadow: 7px 7px rgb(167, 165, 165);
+    
+    
+    
+}
+
+.first-1{
+    margin-left: 1rem;
+    display: grid;
+    grid-column: 2/3;
+    justify-content: center;
+}
+
+.first-2{
+    display: grid;
+    grid-column: 3/4;
+    justify-content: center;
+
+}
+.first-3{
+    display: grid;
+
+    grid-column: 4/5;
+    justify-content: center;
+
+}
+.first-4{ 
+    display: grid;
+    grid-column: 5/6;
+    justify-content: center;
+
+}
+
+.first-component-content h2{
+    font-weight: 400;
+}
+
+
+
+
+.first-component-grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 1rem;
+
+    
+    
+}
+
+.first-layer-1{
+    display: grid;
+    align-items: center;
+    grid-column: 1/2;
+    min-height: 5rem;
+    background-color: rgb(194, 194, 194);
+    margin-bottom: 2rem;
+    box-shadow: 7px 7px rgb(167, 165, 165);
+
+    
+}
+
+.first-layer-2{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: center;
+    min-height: 5rem;
+    background-color: rgb(194, 194, 194);
+    margin-bottom: 2rem;
+    align-items: center;
+    margin-left: -1rem;
+    box-shadow: 7px 7px rgb(167, 165, 165);
+
+}
+.first-layer-3{
+    display: grid;
+    grid-column: 3/4;
+    justify-content: center;
+    min-height: 5rem;
+    background-color: rgb(194, 194, 194);
+    margin-bottom: 2rem;
+    align-items: center;
+    box-shadow: 7px 7px rgb(167, 165, 165);
+
+
+}
+.first-layer-4{
+    display: grid;
+    grid-column: 4/5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 7px rgb(167, 165, 165);
+
+    min-height: 5rem;
+    background-color: rgb(194, 194, 194);
+    margin-bottom: 2rem;
+
+}
+.first-layer-5{
+    display: grid;
+    grid-column: 5/6;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 5rem;
+    background-color: rgb(194, 194, 194);
+    margin-bottom: 2rem;
+    margin-right: 0.6rem;
+    box-shadow: 7px 7px rgb(167, 165, 165);
+
+}
+.first-component-grid-box .darker{
+    background-color: rgb(58, 78, 78);
+    min-height: 5rem;
+    display: grid;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-weight: 250;
+    margin-left: 0.6rem;
+    box-shadow: 7px 7px rgb(167, 165, 165);
+
+}
+
+.first-component-grid-box h3{
+    font-weight: 200;
+    display: grid;
+    justify-content: center;
+}
+   
+
+/*    SECOND COMPONENT    */
+
+.second-component{
+    min-height: 700px;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.second-component-img img{
+    height: 550px;
+    margin: 1rem 6rem;
+}
+
+.second-component-content{
+    margin: 7rem  1rem;
+    max-width: 450px;
+}
+
+.second-component-content h1{
+    font-size: 65px;
+    margin-bottom: 1.5rem;
+}
+
+.second-component-content p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+
+/*   THRID COMPONENT   */
+
+.third-component{
+    min-height: 700px;
+    display: flex;
+
+}
+
+.third-component-content{
+    max-width: 600px;
+    margin: 5rem 8rem;
+}
+
+.third-component-content h1{
+    font-size: 65px;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+}
+
+.third-component-content p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.third-component-img img{
+    height: 550px;
+    margin: 1rem 6rem;
+}
+
+
+/* FOURTH COMPONENT  */
+
+.fourth-component{
+    min-height: 700px;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.fourth-component-img img{
+    height: 550px;
+    margin: 1rem 6rem;
+}
+
+.fourth-component-content{
+    margin: 7rem  1rem;
+    max-width: 450px;
+}
+
+.fourth-component-content h1{
+    font-size: 65px;
+    margin-bottom: 1.5rem;
+}
+
+.fourth-component-content p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+
+/*   FIFTH COMPONENT  */
+
+
+.fifth-component{
+    min-height: 700px;
+    display: flex;
+    background-color: black;
+
+}
+
+.fifth-component-content{
+    color: white;
+    max-width: 600px;
+    margin: 14rem 8rem;
+}
+
+.fifth-component-content h1{
+    font-size: 65px;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+}
+
+.fifth-component-content p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.fifth-component-img img{
+    height: 550px;
+    margin: 6rem 6rem;
+}
+
+
+/*   SIXTH COMPONENT   */
+
+.sixth-component{
+    min-height: 700px;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.sixth-component-img img{
+    height: 550px;
+    margin: 1rem 6rem;
+}
+
+.sixth-component-content{
+    margin: 7rem  1rem;
+    max-width: 450px;
+}
+
+.sixth-component-content h1{
+    font-size: 65px;
+    margin-bottom: 1.5rem;
+}
+
+.sixth-component-content p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
